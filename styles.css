@@ -142,7 +142,7 @@ body {
     color: #fff;
     min-height: 300px;
     text-align: center;
-    background: url('https://unsplash.it/800/800?image=957') no-repeat center center;
+    background: url('blueberries.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -223,7 +223,7 @@ body {
 /*--SUBSCRIBE--*/
 
 .subscribe {
-    background: url('https://unsplash.it/800/800?image=962') no-repeat center center;
+    background: url('landscape.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 50px;
@@ -256,6 +256,11 @@ footer hr {
 
 .footer-portfolio>div {
     padding: 10px;
+    min-height: 100%;
+}
+
+.footer-portfolio>div img {
+    min-height: 100%;
 }
 
 .footer-2 {
